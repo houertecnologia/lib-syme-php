@@ -1,0 +1,23 @@
+{
+    "name": "lordshark/lib-syme-php",
+    "description": "Syme PHP Library",
+	"version": "1.0.0",
+    "type": "library",
+    "require": {
+        "ramsey/uuid": "^4.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Syme\\": "src/Syme/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jaime Daniel Corrêa Mendes",
+            "email": "jaimedaniel@tartech.com.br"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
